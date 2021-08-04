@@ -13,6 +13,8 @@ document.write(Dog);     //Printing Variables on screen
 
 document.write(3+3);    //Making a function
 
+document.write("This is a string value, \"It makes the script look like this!"")
+
 function My_First_Function() {                         //Defining a function and naming it
     var str = "This text is green!";                    //Defining a variable and giving it a string value
     var result=str.fontcolor('green');                  //Using the fontcolor method on a str variable
