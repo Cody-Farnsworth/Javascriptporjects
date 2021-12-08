@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JS/main.js" defer></script>
+    </head>
+
+    <body>
+        <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop.</button>
+        <p>The length property returns the length of a string.</p>
+        <p>Find the length of "Hello World!":</p>
+        <p id="length"></p>
+        <button onclick="Length_Check()">Click here to find the length.</button>
+        <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here.</button>
+        <p id="Array"></p>
+        <button onclick="array_Function()">Click here.</button>
+        <p id="Constant"></p>
+        <button onclick="constant_function()">Click here.</button>
+        <p id="Let"></p>
+        <button onclick="let_function()">Click here.</button>
+        <<p>This example calls a function which returns the value of PI:</p>
+       
+        <p id="call"></p>
+
+        <script>
+        function myFunction() {
+          return Math.PI;
+        }
+        document.getElementById("call").innerHTML = myFunction();
+        </script>
+        <p id="Car_Object"></p>
+        <p>A loop with a <b>break</b> statement.</p>
+        <p id="break"></p>
+        <p>A loop with a <b>continue</b> statement.</p>
+        <p>A loop which will skip the step where i = 3.</p>
+        <p id="continue"></p>
+        
+    </body>
+</html>
